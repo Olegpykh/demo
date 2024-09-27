@@ -1,0 +1,29 @@
+package src.homework1;
+
+
+public class Homework1 {
+    public static void main(String[] args) {
+        String hm = new String(" I study Basic Java!");
+        System.out.println(hm.charAt(hm.length() - 2));
+        System.out.println(hm.contains("Java"));
+        System.out.println(hm.substring(hm.length() - 5, hm.length() - 1));
+        System.out.println(hm.replace('a', 'o'));
+        System.out.println(hm.toUpperCase());
+        System.out.println(hm.toLowerCase());
+
+
+        int x = 7;
+        int y = 22;
+        int res1 = x + y;
+        int res2 = x - y;
+        int res3 = x * y;
+        int res4 = x / y;
+
+
+        System.out.println(res1);
+        System.out.println(res2);
+        System.out.println(res3);
+        System.out.println(res4);
+
+    }
+}
