@@ -1,0 +1,7 @@
+#!/bin/bash
+export OLEG=$OLEG
+date
+echo hello OLEG
+pwd 
+ps -ef | grep bioset | wc -l
+awk '{print $1}' /etc/passwd
