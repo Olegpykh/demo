@@ -1,16 +1,16 @@
 public class MissingNumber {
 
     public static int findMissing(int[] arr, int n) {
-        // Вычисляем ожидаемую сумму чисел от 1 до n
+       
         int expectedSum = n * (n + 1) / 2;
 
-        // Вычисляем фактическую сумму элементов массива
+        
         int actualSum = 0;
         for (int num : arr) {
             actualSum += num;
         }
 
-        // Разница между ожидаемой и фактической суммой - это недостающий элемент
+        
         return expectedSum - actualSum;
     }
 
